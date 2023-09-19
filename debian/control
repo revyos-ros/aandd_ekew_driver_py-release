@@ -1,0 +1,12 @@
+Source: ros-humble-aandd-ekew-driver-py
+Section: misc
+Priority: optional
+Maintainer: Jiaqing Lin <lin.jiaqing@techmagic.co.jp>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-humble-action-msgs, ros-humble-ament-copyright <!nocheck>, ros-humble-ament-flake8 <!nocheck>, ros-humble-ament-pep257 <!nocheck>, ros-humble-rclpy, ros-humble-weight-scale-interfaces, ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-aandd-ekew-driver-py
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-serial, ros-humble-action-msgs, ros-humble-rclpy, ros-humble-weight-scale-interfaces, ros-humble-ros-workspace
+Description: aandd ek/ew series driver python package
