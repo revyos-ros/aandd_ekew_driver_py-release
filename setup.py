@@ -6,7 +6,7 @@ package_name = 'aandd_ekew_driver_py'
 
 setup(
     name=package_name,
-    version='0.0.1',
+    version='0.0.2',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -18,6 +18,8 @@ setup(
     zip_safe=True,
     maintainer='Jiaqing Lin',
     maintainer_email='lin.jiaqing@techmagic.co.jp',
+    author='koki-ogura',
+    author_email='koki.balian@gmail.com',
     description='aandd_ekew_driver_py',
     license='Apache-2.0',
     tests_require=['pytest'],
