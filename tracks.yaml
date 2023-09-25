@@ -1,3 +1,4 @@
+release_repo_url: https://github.com/ros2-gbp/aandd_ekew_driver_py-release.git
 tracks:
   humble:
     actions:
